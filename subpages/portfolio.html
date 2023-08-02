@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Portfolio</title>
+  <!-- Structure for website data -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=decive-width, initial scale=1.0">
+  <meta name="description" content="Portfolio Page">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../assets/style.css">
+  <link rel="icon" type="image/png" href="../assets/icons/favicon.png">
+</head>
+<body>
+  <header>
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-md">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img class="brand-size" src="../assets/icons/favicon.png" alt="Portfolio logo">
+        </a>
+        <button class="navbar-toggler new-cursor" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link left-block" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link left-block" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link left-block" href="./blog.html">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Responsive Cards structure -->
+  <div class="container top-setter">
+    <!-- CSS class to the row-wrapper enables a JavaScript plugin to provide Bootstrap a Masonry layout -->
+    <div class="row" data-masonry='{"percentPosition": true }'>
+
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card border-dark card-background">
+          <img src="../assets/images/project-6-thumbnail.png" class="card-img-top" alt="Image of my first website">
+          <div class="card-body">
+            <h5 class="card-title">Project 6 - spectre</h5>
+            <p class="card-text">The completion of my gaming wiki, and predecessor to this portfolio.
+            </p>
+            <a href="#" class="btn btn-outline-info link-text left-select">View</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card border-dark card-background">
+          <div class="card-body">
+            <h5 class="card-title">Project 5 - CV and Resume</h5>
+            <p class="card-text">A CV and Resume made with XML including stylesheets and schemas.
+            </p>
+            <a href="#" class="btn btn-outline-info link-text left-select">View</a>
+            <a href="#" class="btn btn-outline-light link-text left-select">Source</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card border-dark card-background">
+          <img src="../assets/images/project-4-thumbnail.png" class="card-img-top" alt="Image of my first website">
+          <div class="card-body">
+            <h5 class="card-title">Project 4 - Zone of Malice</h5>
+            <p class="card-text">A dungeon crawler game made in Unity for an Application Programming module.
+            </p>
+            <a href="#" class="btn btn-outline-info link-text left-select">View</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card border-dark card-background">
+          <img src="../assets/images/project-3-thumbnail.png" class="card-img-top" alt="Image of my first website">
+          <div class="card-body">
+            <h5 class="card-title">Project 3 - titlecard</h5>
+            <p class="card-text">A gaming wiki made for a web development module.
+            </p>
+            <a href="#" class="btn btn-outline-info link-text left-select">View</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card border-dark card-background">
+          <div class="card-body">
+            <h5 class="card-title">Project 2 - Simple Product App</h5>
+            <p class="card-text">A simple app demonstration made in BlueJ to buy, sell, and remove products.
+            </p>  
+            <a href="#" class="btn btn-outline-info link-text left-select">View</a>
+            <a href="#" class="btn btn-outline-light link-text left-select">Source</a>
+          </div>
+        </div>
+      </div>
+      <!-- Outer wrapper for card positioning  -->
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card border-dark card-background">
+          <img src="../assets/images/project-1-thumbnail.png" class="card-img-top" alt="Image of my first website">
+          <div class="card-body">
+            <h5 class="card-title">Project 1 - First Website</h5>
+            <p class="card-text">The first website I made, exploring different HTML elements.
+            </p>
+            <a href="#" class="btn btn-outline-info link-text left-select">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+    integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+    async></script>
+  <script type="text/javascript" src="../assets/script.js"></script>
+</body>
+</html>
