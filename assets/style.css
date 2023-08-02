@@ -157,7 +157,7 @@ nav {
   float: right;
   width: 180px;
   border: 2px solid silver;
-  border-radius: 5%;
+  border-radius: 8px;
   top: -50px;
 }
 /*Styling to separate out divs*/
@@ -267,6 +267,25 @@ nav {
   width: 6px;
   height: 6px;
 }
+/*Badge styling*/
+.badge-style {
+  border: 1px solid var(--textLight);
+}
+/*Article styling*/
+.page-article-sizing {
+  position: relative;
+  display: block;
+  top: 40px;
+  background-color: var(--transparentDark);
+  border-radius: 8px;
+  width: 60%;
+  height: 80px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*Extra styling to correct list movement on the page (too far right)*/
 @media screen and (max-width: 990px) {
@@ -349,6 +368,10 @@ nav {
     max-width: 65%;
   }
   .top-setter {
+    top: 24px;
+  }
+  .page-article-sizing {
+    width: 90%;
     top: 24px;
   }
 
