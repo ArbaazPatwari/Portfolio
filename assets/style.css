@@ -278,14 +278,25 @@ nav {
   top: 40px;
   background-color: var(--transparentDark);
   border-radius: 8px;
-  width: 60%;
-  height: 80px;
-  padding: 10px;
+  width: 60vw;
+  padding: 20px;
   align-items: center;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
 }
+.heading-style {
+  position: relative;
+  display: block;
+  top: 20px;
+  text-align: center;
+}
+.left-setter {
+  left: 20px;
+}
+.top-spacer {
+  margin-top: 50px;
+ }
 
 /*Extra styling to correct list movement on the page (too far right)*/
 @media screen and (max-width: 990px) {
