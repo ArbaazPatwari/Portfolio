@@ -232,6 +232,7 @@ nav {
 }
 .link-text {
   color: var(--textLight);
+  word-break: break-all;
 }
 .link-text:hover {
   color: var(--textDark);
@@ -290,13 +291,26 @@ nav {
   display: block;
   top: 20px;
   text-align: center;
+  margin-bottom: 50px;
 }
 .left-setter {
   left: 20px;
 }
 .top-spacer {
-  margin-top: 50px;
+  margin-top: 10px;
  }
+ .image-style {
+  border-radius: 10px;
+  background-color: var(--backgroundLight);
+ }
+
+.bottom-spacer {
+  margin-bottom: 50px;
+}
+
+.revert-break {
+  word-break: normal;
+}
 
 /*Extra styling to correct list movement on the page (too far right)*/
 @media screen and (max-width: 990px) {
