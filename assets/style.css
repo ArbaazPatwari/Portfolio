@@ -300,7 +300,7 @@ nav {
   margin-top: 10px;
  }
  .image-style {
-  border-radius: 10px;
+  border-radius: 2px;
   background-color: var(--backgroundLight);
  }
 
