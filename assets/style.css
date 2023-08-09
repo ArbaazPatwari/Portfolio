@@ -307,9 +307,27 @@ nav {
 .bottom-spacer {
   margin-bottom: 50px;
 }
-
 .revert-break {
   word-break: normal;
+}
+.carousel-text {
+  color: var(--textDark);
+  font-style: italic;
+  position: relative;
+  display: block;
+  top: 16px;
+  right: 34%;
+}
+.carousel-button:hover {
+  cursor: url(./icons/target_black.png) 16 16, pointer;
+}
+.carousel-hover-normal {
+  cursor: url(./icons/circle_black.png) 16 16, auto;
+}
+
+
+.carousel-image {
+  max-height: 370px;
 }
 
 /*Extra styling to correct list movement on the page (too far right)*/
