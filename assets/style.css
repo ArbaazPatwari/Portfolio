@@ -135,6 +135,7 @@ nav {
   height: 6px;
 }
 /*===Home Page Content===*/
+/*Main heading style for index page*/
 .main-heading {
   position: relative;
   display: block;
@@ -164,7 +165,7 @@ nav {
 .new-margin {
   margin-top: 200px;
 }
-
+/*Styling for an image caption*/
 .caption-sizing {
   position: relative;
   display: block;
@@ -173,6 +174,7 @@ nav {
   max-width: 26vw;
   font-size: 12px;
 }
+/*Sizing for articles*/
 .article-sizing {
   position: relative;
   display: block;
@@ -183,72 +185,90 @@ nav {
   font-size: 18px;
   padding: 5px;
 }
+/*Styling for the unordered list with external links*/
 .list-sizing {
   position: relative;
   display: block;
   font-size: 16px;
   float: right;
   margin-top: 32px;
-  left: 104px;
+  left: 108px;
   list-style: none;
   padding: 5px;
 }
+/*Styling for social media links*/
 .social-link {
   text-decoration: none;
   color: var(--textLight);
 }
+/*Styling for social media icons*/
 .icon-sizing {
   position: relative;
   display: inline-block;
   left: 20px;
   bottom: 2px;
 }
+/*Position style for GitHub icon*/
 .github-icon {
   position: relative;
   left: 30px;
 }
+/*Position style for YouTube icon*/
 .youtube-icon {
   position: relative;
   left: 17px;
 }
+/*Style for a resume icon
 .resume-icon {
   position: relative;
   left: 23px;
 }
+*/
+/*Position information for block elements needing to be lower in the page view*/
 .push-down-item {
   position: relative;
   display: block;
   top: 140px;
 }
+/*Position information for the email*/
 .bottom-text {
   position: relative;
   display: block;
   left: 40px;
   font-size: 18px;
 }
+/*Position style to move page content like articles below the navbar*/
 .top-setter {
   position: relative;
   top: 40px;
 }
+/*Styling for some links to wrap text in the article/ container neatly rather than chunkily*/
 .link-text {
   color: var(--textLight);
   word-break: break-all;
 }
+/*Style for hovering over traversable hyperlinks*/
 .link-text:hover {
   color: var(--textDark);
 }
+/*Style to add a transition to the Bootstrap CSS card*/
 .card {
   transition: transform 0.1s;
 }
+/*Style to increase the card size on mouse hover*/
 .card:hover {
   transform: scale(1.01);
 }
+/*Style to color the text on cards for readability in normal (dark) theme*/
 .card-title, .card-text {
   color: var(--textLight);
 }
+/*Style to change the color of a card background while keeping it of the same shade as the background (just
+changes opacity)*/
 .card-background {
   background-color: var(--transparentDark);
 }
+/*Style to create a small dot next to traversable links for improved interaction and telegraphing*/
 .left-select::before {
   content: "";
   display: inline-block;
@@ -268,11 +288,12 @@ nav {
   width: 6px;
   height: 6px;
 }
-/*Badge styling*/
+/*Badge styling
 .badge-style {
   border: 1px solid var(--textLight);
 }
-/*Article styling*/
+*/
+/*Article styling to center and pad content*/
 .page-article-sizing {
   position: relative;
   display: block;
@@ -286,6 +307,7 @@ nav {
   margin-left: auto;
   margin-right: auto;
 }
+/*Heading style for articles*/
 .heading-style {
   position: relative;
   display: block;
@@ -314,9 +336,8 @@ nav {
   color: var(--textDark);
   font-style: italic;
   position: relative;
-  display: block;
-  top: 16px;
-  right: 34%;
+  top: 46px;
+  text-align: center;
 }
 .carousel-button:hover {
   cursor: url(./icons/target_black.png) 16 16, pointer;
@@ -324,11 +345,10 @@ nav {
 .carousel-hover-normal {
   cursor: url(./icons/circle_black.png) 16 16, auto;
 }
-
-
 .carousel-image {
   max-height: 370px;
 }
+
 
 /*Extra styling to correct list movement on the page (too far right)*/
 @media screen and (max-width: 990px) {
@@ -401,6 +421,7 @@ nav {
   .push-down-item {
     position: relative;
     display: block;
+    top: 100px;
   }
   .bottom-text {
     position: relative;
