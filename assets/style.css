@@ -350,6 +350,7 @@ changes opacity)*/
 }
 .blog-list {
   list-style: none;
+  margin-left: -32px;
 }
 .blog-date {
   position: relative;
@@ -361,6 +362,9 @@ changes opacity)*/
   text-align: center;
 }
 */
+.blog-article-separate {
+  margin-top: 5px;
+}
 
 /*Extra styling to correct list movement on the page (too far right)*/
 @media screen and (max-width: 990px) {
