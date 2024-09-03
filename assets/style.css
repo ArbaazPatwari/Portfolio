@@ -11,7 +11,7 @@
   --transparentLight: rgba(196, 196, 196, 0.5);
   --transparentDark: rgb(72, 72, 72, 0.5);
 
-  --normal-font-size: 16px;
+  --normal-font-size: 1rem;
   --normal-font-weight: 400;
   --heading-font-weight: 600;
 }
@@ -178,12 +178,10 @@ nav {
 .article-sizing {
   position: relative;
   display: block;
-  top: 80px;
-  left: 34px;
-  padding: 10px;
+  top: 70px;
+  left: 40px;
   max-width: 60%;
   font-size: 18px;
-  padding: 5px;
 }
 /*Styling for the unordered list with external links*/
 .list-sizing {
@@ -191,7 +189,7 @@ nav {
   display: block;
   font-size: 16px;
   float: right;
-  margin-top: 32px;
+  margin-top: 30px;
   left: 108px;
   list-style: none;
   padding: 5px;
@@ -235,7 +233,6 @@ nav {
   position: relative;
   display: block;
   left: 40px;
-  font-size: 18px;
 }
 /*Position style to move page content like articles below the navbar*/
 .top-setter {
@@ -319,15 +316,18 @@ changes opacity)*/
   left: 20px;
 }
 .top-spacer {
-  margin-top: 10px;
- }
- .image-style {
+  margin-top: 20px;
+}
+.image-style {
   border-radius: 2px;
   background-color: var(--backgroundLight);
- }
+}
 
 .bottom-spacer {
-  margin-bottom: 50px;
+  padding-bottom: 10px;
+}
+.bottom-spacer-article {
+  padding-bottom: 74px;
 }
 .revert-break {
   word-break: normal;
@@ -377,7 +377,7 @@ changes opacity)*/
     display: block;
     float: right;
     margin-right: 170px;
-    bottom: 86px;
+    bottom: 90px;
   }
 }
 
@@ -413,10 +413,11 @@ changes opacity)*/
   .article-sizing {
     position: relative;
     display: block;
-    font-size: 12px;
+    font-size: 0.9rem;
     left: 4px;
     top: 60px;
     max-width: 65%;
+    margin: left;
   }
   .list-sizing {
     position: relative;
@@ -424,7 +425,7 @@ changes opacity)*/
     float: right;
     font-size: 12px;
     margin-right: 140px;
-    top: -100px;
+    bottom: 120px;
   }
   .icon-sizing {
     width: 20px;
@@ -454,9 +455,11 @@ changes opacity)*/
   .top-setter {
     top: 24px;
   }
+  .bottom-spacer-article {
+  padding-bottom: 44px;
+  }
   .page-article-sizing {
     width: 90%;
     top: 24px;
   }
-
 }
